@@ -1,7 +1,8 @@
 def              helloworld(a):
-    print(
-        f"Hello MLOps World, {a}!"
-        )
+    value = f"Hello MLOps World, {a}!"
+    print(value)
+    
+    return value
 
 
 if __name__        ==        "__main__":
